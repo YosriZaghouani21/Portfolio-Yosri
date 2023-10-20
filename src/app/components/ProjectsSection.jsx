@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "fuelMe",
     description:
-      "fuelMe, is a mobile app designed to simplify your journey on the road. It's your go-to companion for all things related to gas stations. With fuelMe, you can effortlessly locate the nearest gas station, plan the fastest route to fill up your tank, and even reserve a convenient car wash appointment while on the go. But that's not all – fuelMe also allows you to conveniently shop for essential automotive and convenience store products online, ensuring your road trip is as seamless as possible.",
+      "fuelMe, is a mobile app designed to simplify your journey on the road. It&apos;s your go-to companion for all things related to gas stations. With fuelMe, you can effortlessly locate the nearest gas station, plan the fastest route to fill up your tank, and even reserve a convenient car wash appointment while on the go. But that&apos;s not all – fuelMe also allows you to conveniently shop for essential automotive and convenience store products online, ensuring your road trip is as seamless as possible.",
     images: [
       "/images/projects/FuelCover.png",
       "/images/projects/Cover Fuel me.png",
@@ -25,7 +25,7 @@ const projectsData = [
     id: 2,
     title: "Gromet Website",
     description:
-      "Gromet Website, is your comprehensive online destination for all your construction material needs, and more.At Gromet, we've transformed our extensive catalog into a fully functional website, offering a user-friendly experience that makes finding the right construction materials a breeze. But we didnt stop there.Gromet Website is not just about providing construction materials; it's about offering a complete solution to simplify your construction projects. Experience the convenience of online shopping, stay informed with our blog, and enjoy the peace of mind that comes with our reliable delivery system",
+      "Gromet Website, is your comprehensive online destination for all your construction material needs, and more.At Gromet, weve transformed our extensive catalog into a fully functional website, offering a user-friendly experience that makes finding the right construction materials a breeze. But we didnt stop there.Gromet Website is not just about providing construction materials; it&apos;s about offering a complete solution to simplify your construction projects. Experience the convenience of online shopping, stay informed with our blog, and enjoy the peace of mind that comes with our reliable delivery system",
     images: [
       "/images/projects/Gromet Cover.png",
 
@@ -41,7 +41,7 @@ const projectsData = [
     id: 3,
     title: "jobHub",
     description:
-      "JobHub, is more than just an app; it's a revolutionary platform that's reshaping how job seekers connect with potential employers and uncover exhilarating career pathways. Your one-stop destination for professional networking and job exploration, JobHub is where opportunities converge with talent, and connections metamorphose into thriving careers. Join us as we embark on this exhilarating journey to redefine the job-seeking experience",
+      "JobHub, is more than just an app; it&apos;s a revolutionary platform that&apos;s reshaping how job seekers connect with potential employers and uncover exhilarating career pathways. Your one-stop destination for professional networking and job exploration, JobHub is where opportunities converge with talent, and connections metamorphose into thriving careers. Join us as we embark on this exhilarating journey to redefine the job-seeking experience",
     images: [
       "/images/projects/JobHubCover.png",
 
@@ -57,7 +57,7 @@ const projectsData = [
     id: 4,
     title: "Xperience Website",
     description:
-      "Xperience, is a web app that offer travelers a distinctive opportunity to fully immerse themselves in the rich culture and activities of Tunisia, all while connecting with passionate local hosts who are eager to share their knowledge and love for the region.Discover the heart of Tunisia through a diverse range of experiences, from savoring the flavors of Tunisian cuisine in our online cooking courses to learning the art of belly dancing with our expert instructors. Xperience, go beyond the typical tourist path, allowing you to engage with the country's vibrant heritage and traditions in an unforgettable way.",
+      "Xperience, is a web app that offer travelers a distinctive opportunity to fully immerse themselves in the rich culture and activities of Tunisia, all while connecting with passionate local hosts who are eager to share their knowledge and love for the region.Discover the heart of Tunisia through a diverse range of experiences, from savoring the flavors of Tunisian cuisine in our online cooking courses to learning the art of belly dancing with our expert instructors. Xperience, go beyond the typical tourist path, allowing you to engage with the country&apos;s vibrant heritage and traditions in an unforgettable way.",
     images: [
       "/images/projects/Xperience Cover.png",
       "/images/projects/Xperience1.png",
