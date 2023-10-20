@@ -12,7 +12,7 @@ const projectsData = [
       "fuelMe, is a mobile app designed to simplify your journey on the road. It&apos;s your go-to companion for all things related to gas stations. With fuelMe, you can effortlessly locate the nearest gas station, plan the fastest route to fill up your tank, and even reserve a convenient car wash appointment while on the go. But that&apos;s not all – fuelMe also allows you to conveniently shop for essential automotive and convenience store products online, ensuring your road trip is as seamless as possible.",
     images: [
       "/images/projects/FuelCover.png",
-      "/images/projects/Cover Fuel me.png",
+      "https://res.cloudinary.com/dr63ndxik/image/upload/v1697819367/rnaigz97x8w6tgjndr3x.png",
       "/images/projects/Fuel Me 2.png",
       "/images/projects/Fuel Me 3.png",
     ],
