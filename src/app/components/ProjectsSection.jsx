@@ -73,7 +73,7 @@ const projectsData = [
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
-  const [previewImageIndex, setPreviewImageIndex] = useState(null); // Track the index of the previewed image
+  // const [previewImageIndex, setPreviewImageIndex] = useState(null); // Track the index of the previewed image
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -81,13 +81,13 @@ const ProjectsSection = () => {
     setTag(newTag);
   }, []);
 
-  const handlePreview = (imageSrc, index) => {
-    setPreviewImageIndex(index); // Set the index of the previewed image
-  };
+  // const handlePreview = (imageSrc, index) => {
+  //   setPreviewImageIndex(index); // Set the index of the previewed image
+  // };
 
-  const handleExitPreview = () => {
-    setPreviewImageIndex(null); // Clear the previewed image index
-  };
+  // const handleExitPreview = () => {
+  //   setPreviewImageIndex(null); // Clear the previewed image index
+  // };
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
@@ -136,15 +136,15 @@ const ProjectsSection = () => {
               images={project.images}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
-              onPreview={(imageSrc) => handlePreview(imageSrc, index)}
-              isPreviewed={index === previewImageIndex}
+              // onPreview={(imageSrc) => handlePreview(imageSrc, index)}
+              // isPreviewed={index === previewImageIndex}
             />
           </motion.li>
         ))}
       </ul>
 
       {/* Image Preview Modal */}
-      {previewImageIndex !== null && (
+      {/* {previewImageIndex !== null && (
         <div className="fixed top-0 left-0 flex justify-center items-center w-full h-full bg-black bg-opacity-75 z-50">
           <div className="max-w-3xl w-full p-4">
             <img
@@ -160,7 +160,7 @@ const ProjectsSection = () => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };
